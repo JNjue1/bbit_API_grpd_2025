@@ -19,16 +19,16 @@ class forms{
         <?php
     }
 
-public function login(){
-    ?>
-    <h2>Login Form</h2>
-    <form action='submit_login.php' method='post'>
-        <label for='username'>Username:</label>
-        <input type='text' id='username' name='username' required><br>
-        <label for='password'>Password:</label>
-        <input type='password' id='password' name='password' required><br>
-        <?php $this->submit_button('Log In'); ?> <a href="index.php">Already have an account? Sign Up
-    </form>
-    <?php
+    public function login(){
+         ?>
+        <h2>Login Form</h2>
+        <form action='submit_login.php' method='post'>
+             <label for='username'>Username:</label>
+            <input type='text' id='username' name='username' required><br>
+            <label for='password'>Password:</label>
+            <input type='password' id='password' name='password' required><br>
+             <?php $this->submit_button('Log In'); ?> <a href="index.php">Already have an account? Sign Up
+        </form>
+        <?php
     }
 }
